@@ -777,7 +777,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "OPA2192"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Bioamplifier:OPA2192_VSSOP-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
