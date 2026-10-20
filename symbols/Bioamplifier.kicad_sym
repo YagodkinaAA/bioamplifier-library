@@ -11,7 +11,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "С"
+		(property "Reference" "C"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31,8 +31,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Bioamplifier:С_100nF_1206"
+			(at 0 -7.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC1206KKX7R0BB104"
-			(at 0 0 0)
+			(at 0 -5.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -75,14 +75,14 @@
 				)
 			)
 		)
-		(symbol "C_0.1uF_0_1"
+		(symbol "C_0.1uF_1_1"
 			(polyline
 				(pts
 					(xy -0.762 -4.0005) (xy -0.762 4.0005)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.508)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -93,18 +93,16 @@
 					(xy 0.762 -4.0005) (xy 0.762 4.0005)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.508)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "C_0.1uF_1_1"
 			(pin passive line
-				(at -5.842 0 0)
-				(length 5.08)
+				(at -5.08 0 0)
+				(length 4.318)
 				(name ""
 					(effects
 						(font
@@ -121,8 +119,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.842 0 180)
-				(length 5.08)
+				(at 5.08 0 180)
+				(length 4.318)
 				(name ""
 					(effects
 						(font
@@ -150,7 +148,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "С"
+		(property "Reference" "C"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -170,8 +168,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Bioamplifier:C_10uF_0805"
+			(at 0 -7.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -204,7 +202,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM21BR61H106KE43L"
-			(at 0 0 0)
+			(at 0 -5.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -214,14 +212,14 @@
 				)
 			)
 		)
-		(symbol "C_10uF_0_1"
+		(symbol "C_10uF_1_1"
 			(polyline
 				(pts
 					(xy -0.762 -4.0005) (xy -0.762 4.0005)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.508)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -232,18 +230,16 @@
 					(xy 0.762 -4.0005) (xy 0.762 4.0005)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.508)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "C_10uF_1_1"
 			(pin passive line
-				(at -5.842 0 0)
-				(length 5.08)
+				(at -5.08 0 0)
+				(length 4.318)
 				(name ""
 					(effects
 						(font
@@ -260,8 +256,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.842 0 180)
-				(length 5.08)
+				(at 5.08 0 180)
+				(length 4.318)
 				(name ""
 					(effects
 						(font
@@ -299,8 +295,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "LT5400"
+			(at 0.254 -18.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -309,8 +305,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Bioamplifier:LT5400_MSOP-8"
+			(at 0 -25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -343,7 +339,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT5400ACMS8E-4"
-			(at 0 0 0)
+			(at 0 -23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -577,7 +573,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "OPA192"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -587,8 +583,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Bioamplifier:OPA192_SOT-23-5"
+			(at 0 -18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -621,7 +617,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OPA192IDBVT"
-			(at 0 0 0)
+			(at -0.254 -15.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -684,9 +680,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -8.89 180)
+				(at 20.32 -5.08 180)
 				(length 5.08)
-				(name "V+"
+				(name "V-"
 					(effects
 						(font
 							(size 2.0066 2.0066)
@@ -738,9 +734,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -5.08 180)
+				(at 20.32 -8.89 180)
 				(length 5.08)
-				(name "V-"
+				(name "V+"
 					(effects
 						(font
 							(size 2.0066 2.0066)
@@ -788,7 +784,7 @@
 			)
 		)
 		(property "Footprint" "Bioamplifier:OPA2192_VSSOP-8"
-			(at 0 0 0)
+			(at 0 -18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -821,7 +817,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OPA2192IDGKT"
-			(at 0 0 0)
+			(at -0.254 -15.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1050,6 +1046,479 @@
 					(effects
 						(font
 							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PH1-02-UA"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "XT"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PH1-02-UA"
+			(at 0 1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bioamplifier:PH1-02-UA"
+			(at 0 -12.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-02-UA"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PH1-02-UA_0_1"
+			(rectangle
+				(start -4.318 0)
+				(end 3.81 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -4.318 -2.54)
+				(end 3.81 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0) (xy 0.762 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PH1-02-UA_1_1"
+			(text "Цепь"
+				(at -2.032 -1.016 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "+INA"
+				(at -2.032 -3.556 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "+INB"
+				(at -1.778 -6.35 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "Конт"
+				(at 2.286 -1.016 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "1"
+				(at 2.286 -3.556 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "2\n"
+				(at 2.286 -6.35 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PH1-04-UA"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "XT"
+			(at 0 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PH1-04-UA"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bioamplifier:PH1-04-UA"
+			(at 0 -17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-04-UA"
+			(at 0 -14.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PH1-04-UA_0_1"
+			(rectangle
+				(start -3.81 0)
+				(end 4.318 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.81 -2.54)
+				(end 4.318 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.81 -7.62)
+				(end 4.318 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy -0.762 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PH1-04-UA_1_1"
+			(text "Конт"
+				(at -2.286 -1.27 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "1"
+				(at -2.286 -3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "2\n"
+				(at -2.286 -6.35 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "3"
+				(at -2.286 -8.89 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "4"
+				(at -2.286 -11.43 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "+5VA"
+				(at 1.524 -6.35 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-5VA"
+				(at 1.524 -8.89 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 1.778 -1.27 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "Out"
+				(at 1.778 -3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 1.778 -11.43 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -6.35 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -8.89 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -11.43 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

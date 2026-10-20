@@ -1,0 +1,118 @@
+(footprint "C_10uF_0805"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at 0 1.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8a3829b4-751c-418d-9f12-6fc920dd2a35")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0 -2.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3f48c4a-11ea-4f88-ae08-17ab850aa82c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f424fc-44a3-48e4-862b-f36432802715")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ceramic capacitor, 10 µF, 50 V, X5R, ±10%, 0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2ccd4a1-2e26-46fb-af40-d8b45f9cd849")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "779d11ce-b143-4aca-a22c-fea7ec8264ad")
+	)
+	(fp_rect
+		(start -1.85 -1)
+		(end 1.85 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "334e55ee-2f4a-48d3-9d02-295bc00c44f7")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "de82001d-5824-460c-a11d-e88e50b3ecb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6480a23-000a-4b71-a278-1f8291fe3cce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9 0)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9a878f3b-e938-431d-bcc1-e4528bc0c0d8")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 0)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "54317e0e-e192-4fb2-ba78-319cbaf3951a")
+	)
+	(embedded_fonts no)
+)
